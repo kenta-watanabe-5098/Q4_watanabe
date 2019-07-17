@@ -7,7 +7,5 @@ class Ferrari extends Car {
         $this->capacity = 3;
         $this->speed = 270;
     }
-
 }
-
 ?>

@@ -7,8 +7,5 @@ class Honda extends Car {
         $this->capacity = 6;
         $this->speed = 180;
     }
-
 }
-
-
 ?>

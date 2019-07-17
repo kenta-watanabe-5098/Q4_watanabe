@@ -14,7 +14,7 @@ class Car {
         print('ストップします');
     }
 
-    public function plusCap($capacity) {
+    public function increasePassenger($capacity) {
         if($capacity <= $this->capacity) {
             for($i=1; $i<=$capacity; $i++) {
                 $this->speed *= 0.95;
@@ -26,7 +26,5 @@ class Car {
 
         return $this->speed . 'km/h';
     }
-    
 }
-
 ?>

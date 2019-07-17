@@ -15,9 +15,9 @@ if(isset($_POST['honda']) && $_POST['honda'] >= 0 && $_POST['nissan'] >= 0 && $_
     $b = $_POST['nissan'];
     $c = $_POST['ferrari'];
 
-    $honda_obj = $honda->plusCap($a);
-    $nissan_obj = $nissan->plusCap($b);
-    $ferrari_obj = $ferrari->plusCap($c);
+    $honda_obj = $honda->increasePassenger($a);
+    $nissan_obj = $nissan->increasePassenger($b);
+    $ferrari_obj = $ferrari->increasePassenger($c);
 
 } else {
     echo '0以上の数字を入力ください';
