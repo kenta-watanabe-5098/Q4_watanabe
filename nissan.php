@@ -15,7 +15,5 @@ class Nissan extends Car {
         $this->speed = 160;
         $this->speed *= 0.6;
     }
-
 }
-
 ?>
