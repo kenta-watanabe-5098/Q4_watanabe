@@ -9,8 +9,6 @@ if(isset($_POST['honda']) && $_POST['honda'] >= 0 && $_POST['nissan'] >= 0 && $_
     $nissan = new Nissan();
     $ferrari = new Ferrari();
 
-    $nissan->defect();
-
     $a = $_POST['honda'];
     $b = $_POST['nissan'];
     $c = $_POST['ferrari'];
